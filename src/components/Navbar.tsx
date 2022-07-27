@@ -27,16 +27,16 @@ const Navbar:React.FC = () => {
 
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <a href="/">Home</a>
+            <a href="#hero" onClick={()=>setClick(false)}>Home</a>
           </li>
           <li className="nav-item">
-            <a href="/">About</a>
+            <a href="#about" onClick={()=>setClick(false)}>About</a>
           </li>
           <li className="nav-item">
-            <a href="/">Testimonials</a>
+            <a href="#testimonials" onClick={()=>setClick(false)}>Testimonials</a>
           </li>
           <li className="nav-item">
-            <a href="/">Demo</a>
+            <a href="#demo" onClick={()=>setClick(false)}>Demo</a>
           </li>
         </ul>
 

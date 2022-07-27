@@ -2,21 +2,21 @@ import '../styles/Footer.css'
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="footer">
       <div className="container">
 
         <ul>
           <li className="nav-item">
-            <a href="/">Home</a>
+            <a href="#hero">Home</a>
           </li>
           <li className="nav-item">
-            <a href="/">About</a>
+            <a href="#about">About</a>
           </li>
           <li className="nav-item">
-            <a href="/">Testimonials</a>
+            <a href="#testimonials">Testimonials</a>
           </li>
           <li className="nav-item">
-            <a href="/">Demo</a>
+            <a href="#demo">Demo</a>
           </li>
         </ul>
         

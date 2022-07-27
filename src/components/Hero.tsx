@@ -4,7 +4,7 @@ import '../styles/Hero.css'
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero" id="hero">
       <div className="content">
         <p>Call us</p>
         <p>1-800-123-4567</p>
