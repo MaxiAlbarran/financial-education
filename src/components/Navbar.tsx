@@ -10,8 +10,22 @@ const Navbar:React.FC = () => {
 
   const [click, setClick] = useState<boolean>(false);
 
+  const [color, setColor] = useState<boolean>(false);
+
+  const changeColor = () => {
+
+    if(window.scrollY >= 90){
+      setColor(true);
+    }else{
+      setColor(false);
+    }
+
+  }
+
+  window.addEventListener("scroll", changeColor);
+
   return (
-    <div className="header">
+    <div className={color? "header header-bg" : "header"}>
       <div className="navbar">
 
         <a href="/" className="logo">
