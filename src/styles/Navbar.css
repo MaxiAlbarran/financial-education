@@ -40,11 +40,13 @@
 .header .nav-item{
   padding: 1rem;
   font-weight: 500;
+  
 }
 
 .header .nav-item a:hover{
   padding-bottom: 12px;
   border-bottom: 3px solid var(--secondary-color);
+  cursor: pointer;
 }
 
 .hamburguer{

@@ -27,6 +27,7 @@
 .footer li a:hover{
   padding-bottom: 10px;
   border-bottom: 3px solid var(--secondary-color);
+  cursor: pointer;
 }
 
 .bottom{
